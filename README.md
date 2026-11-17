@@ -73,46 +73,91 @@ git-practice-BT25CSE170/
 - A standard C++ compiler supporting C++11 or higher (such as `g++`, `clang++`, or MSVC).
 
 ### 1. Exercise 01: Arithmetic Calculator
-Compile using PowerShell / Windows Command Prompt:
-```powershell
-g++ -std=c++11 -pedantic exercise-01/main.cpp -o exercise-01/main.exe
-```
-Run interactively:
-```powershell
-.\exercise-01\main.exe
-```
-Or execute with file redirection in PowerShell:
-```powershell
-Get-Content exercise-01\input.txt | .\exercise-01\main.exe
-```
+**Compilation:**
+- **Linux / macOS:**
+  ```bash
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-01/main.cpp -o exercise-01/main
+  ```
+- **Windows (PowerShell / Command Prompt):**
+  ```powershell
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-01\main.cpp -o exercise-01\main.exe
+  ```
+
+**Execution:**
+- **Interactive Mode:**
+  ```bash
+  # Linux / macOS
+  ./exercise-01/main
+
+  # Windows PowerShell
+  .\exercise-01\main.exe
+  ```
+- **Automated Mode with Input Redirection:**
+  ```bash
+  # Linux / macOS
+  ./exercise-01/main < exercise-01/input.txt
+
+  # Windows PowerShell
+  Get-Content exercise-01\input.txt | .\exercise-01\main.exe
+  ```
 
 ### 2. Exercise 02: Factorial Calculator
-Compile:
-```bash
-g++ -std=c++11 -Wall exercise-02/main.cpp -o exercise-02/main
-```
-Run interactively:
-```bash
-./exercise-02/main
-```
-Or run with sample input:
-```bash
-./exercise-02/main < exercise-02/input.txt
-```
+**Compilation:**
+- **Linux / macOS:**
+  ```bash
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-02/main.cpp -o exercise-02/main
+  ```
+- **Windows (PowerShell / Command Prompt):**
+  ```powershell
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-02\main.cpp -o exercise-02\main.exe
+  ```
+
+**Execution:**
+- **Interactive Mode:**
+  ```bash
+  # Linux / macOS
+  ./exercise-02/main
+
+  # Windows PowerShell
+  .\exercise-02\main.exe
+  ```
+- **Automated Mode with Input Redirection:**
+  ```bash
+  # Linux / macOS
+  ./exercise-02/main < exercise-02/input.txt
+
+  # Windows PowerShell
+  Get-Content exercise-02\input.txt | .\exercise-02\main.exe
+  ```
 
 ### 3. Exercise 03: Fibonacci Generator
-Compile:
-```bash
-g++ -std=c++11 -Wall exercise-03/main.cpp -o exercise-03/main
-```
-Run interactively:
-```bash
-./exercise-03/main
-```
-Or run with sample input:
-```bash
-./exercise-03/main < exercise-03/input.txt
-```
+**Compilation:**
+- **Linux / macOS:**
+  ```bash
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-03/main.cpp -o exercise-03/main
+  ```
+- **Windows (PowerShell / Command Prompt):**
+  ```powershell
+  g++ -O2 -std=c++11 -Wall -Wextra exercise-03\main.cpp -o exercise-03\main.exe
+  ```
+
+**Execution:**
+- **Interactive Mode:**
+  ```bash
+  # Linux / macOS
+  ./exercise-03/main
+
+  # Windows PowerShell
+  .\exercise-03\main.exe
+  ```
+- **Automated Mode with Input Redirection:**
+  ```bash
+  # Linux / macOS
+  ./exercise-03/main < exercise-03/input.txt
+
+  # Windows PowerShell
+  Get-Content exercise-03\input.txt | .\exercise-03\main.exe
+  ```
 
 ---
 
