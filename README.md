@@ -73,15 +73,15 @@ git-practice-BT25CSE170/
 - A standard C++ compiler supporting C++11 or higher (such as `g++`, `clang++`, or MSVC).
 
 ### 1. Exercise 01: Arithmetic Calculator
-Compile:
+Compile using GCC/Clang with optimizations and extra warnings:
 ```bash
-g++ -std=c++11 -Wall exercise-01/main.cpp -o exercise-01/main
+g++ -O2 -std=c++11 -Wall -Wextra exercise-01/main.cpp -o exercise-01/main
 ```
 Run interactively:
 ```bash
 ./exercise-01/main
 ```
-Or run with sample input:
+Or execute with automated input redirection:
 ```bash
 ./exercise-01/main < exercise-01/input.txt
 ```
