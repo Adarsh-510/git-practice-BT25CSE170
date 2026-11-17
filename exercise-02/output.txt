@@ -1,0 +1,4 @@
+========================================
+         FACTORIAL CALCULATOR           
+========================================
+Enter a non-negative integer (0 - 20): Result: 6! = 720
