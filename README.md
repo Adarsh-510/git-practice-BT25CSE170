@@ -171,13 +171,13 @@ git-practice-BT25CSE170/
 | **#3** | Implement Fibonacci Sequence Generator | Generate first N Fibonacci numbers with positive input and upper bound validation. | [#3](https://github.com/Adarsh-510/git-practice-BT25CSE170/issues/3) |
 | **#4** | Git Practice Documentation & Merge Conflict | Create comprehensive git commands reference and document merge conflict resolution. | [#4](https://github.com/Adarsh-510/git-practice-BT25CSE170/issues/4) |
 
-### Pull Requests Log
-| PR # | Branch | Target | Description | Link |
-| :---: | :--- | :---: | :--- | :--- |
-| **#1** | `feature/arithmetic-operations` | `main` | Add addition, subtraction, multiplication, division, and tests. | [#1](https://github.com/Adarsh-510/git-practice-BT25CSE170/pull/1) |
-| **#2** | `feature/factorial` | `main` | Implement factorial logic, negative number validation, and sample I/O. | [#2](https://github.com/Adarsh-510/git-practice-BT25CSE170/pull/2) |
-| **#3** | `feature/fibonacci` | `main` | Add Fibonacci sequence generator, limit checks, and verification files. | [#3](https://github.com/Adarsh-510/git-practice-BT25CSE170/pull/3) |
-| **#4** | `feature/docs-git-record` | `main` | Add documentation, execution instructions, and merge conflict record. | [#4](https://github.com/Adarsh-510/git-practice-BT25CSE170/pull/4) |
+### Pull Requests & Branch Log
+| PR / Activity | Feature Branch | Target | Merge Commit | Description |
+| :---: | :--- | :---: | :---: | :--- |
+| **PR #1** | [`feature/arithmetic-operations`](https://github.com/Adarsh-510/git-practice-BT25CSE170/tree/feature/arithmetic-operations) | `main` | [`00ace13`](https://github.com/Adarsh-510/git-practice-BT25CSE170/commit/00ace13) | Add addition, subtraction, multiplication, division, and tests. |
+| **PR #2** | [`feature/factorial`](https://github.com/Adarsh-510/git-practice-BT25CSE170/tree/feature/factorial) | `main` | [`b8a178f`](https://github.com/Adarsh-510/git-practice-BT25CSE170/commit/b8a178f) | Implement factorial logic, negative number validation, and sample I/O. |
+| **PR #3** | [`feature/fibonacci`](https://github.com/Adarsh-510/git-practice-BT25CSE170/tree/feature/fibonacci) | `main` | [`3043c3f`](https://github.com/Adarsh-510/git-practice-BT25CSE170/commit/3043c3f) | Add Fibonacci sequence generator, limit checks, and verification files. |
+| **PR #4** | [`feature/docs-git-record`](https://github.com/Adarsh-510/git-practice-BT25CSE170/tree/feature/docs-git-record) | `main` | [`8ada751`](https://github.com/Adarsh-510/git-practice-BT25CSE170/commit/8ada751) | Add documentation, execution instructions, and merge conflict resolution. |
 
 ---
 
